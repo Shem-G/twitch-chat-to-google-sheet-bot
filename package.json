@@ -1,0 +1,27 @@
+{
+  "name": "add-to-spreadsheet-bot",
+  "version": "1.0.0",
+  "description": "A chatbot for adding rows and data to a Google Spreadsheet via Twitch chat.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "tmi.js": "^1.4.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/ShemTheDev/twitch-chat-to-google-sheet-bot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "twitch",
+    "chatbots",
+    "irc",
+    "Google Sheets",
+    "Speadsheet"
+  ]
+}
