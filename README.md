@@ -1,5 +1,8 @@
-This bot runs on node.js. It uses a few dependencies: async, google-spreadsheets and tmi
-I started by cloning the basic twitch bot like the instructions here: https://dev.twitch.tv/docs/irc/
+To use on your own Twitch channel:
+1. Remix the app on its product page: https://glitch.com/~chat-to-spreadsheet-bot
+2. Follow the instructions below to set everything else up:
+
+This bot runs on node.js. It uses a few dependencies: async, google-spreadsheets and tmi, better-assert and bad-words. Make sure they're installed by running `npm install async google-spreadsheets tmi better-assert bad-words` in the console. 
 
 There are a few things to set up before looking at the code. I recommend following the Google Drive
 API & Service accounts tutorial here: https://www.twilio.com/blog/2017/03/google-spreadsheets-and-javascriptnode-js.html
